@@ -13,7 +13,7 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
 
 
-#fit/trains the data 
+#fit/trains the model on our sample data 
 clf = clf.fit(X, Y)
 
 #predict whether male or female given the parameters 
