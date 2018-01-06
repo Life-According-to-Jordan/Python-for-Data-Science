@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 dates = []
 prices = []
 
+#I downloaded my data from yahoo and Saraj downloaded his from Google. A setting had changed and I could not replicate his code precisely.
 #filename should be the name of the csv downloaded
 def get_data(aapl):
         with open(aapl, 'r') as csvfile:
@@ -22,7 +23,7 @@ def get_data(aapl):
             for row in csvFileReader:
             #append allows us to add an item to the end of our list
             #split will remove the dashes between our values
-                dates.append(int(row[0].split('-')[0]))
+                dates.append(int(row[0].split('/')[0]))
             #float will allow us to be more precise in our later calculations
                 prices.append(float(row[1]))
             return
@@ -58,6 +59,7 @@ def predict_prices(dates, prices, x):
 
 get_data(AAPL.csv)
 
+#Unsure why we used 29 here
 predicted.price = predict_price(dates, prices, 29)
 
 print(predicted.price)
