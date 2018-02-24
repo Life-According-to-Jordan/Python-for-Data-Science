@@ -1,12 +1,17 @@
-#allows us to read csv files
-#pip install csv
-#numpy will allow us to perform calculations on our data
-#pip install numpy
-#scikit-learn will allow us to build a predictive model
-#pip install scikit-learn
-#matplotlib will allow us to plot our data
-#pip install matplotlib
+'''
+Install Dependencies:
+    [pip install csv]
+    [pip install numpy]
+    [pip install scikit-learn]
+    [pip install matplot lib]
 
+csv allows us to read csv files
+numpy will allow us to perform calculations on our data
+scikit-learn will allow us to build a predictive model
+matplotlib will allow us to plot our data
+'''
+
+#Import Libraries 
 import csv
 import numpy as np
 from sklearn.svm import SVR
