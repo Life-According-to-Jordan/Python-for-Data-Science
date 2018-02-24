@@ -40,12 +40,3 @@ for tweet in public_tweets:
     #this returns the sentiment of the tweet
     print(analysis.sentiment)
     print("")
-
-'''
-HELPFUL DEFINITIONS FOR SENTIMENT ANALYSIS
-Natural Language Processing (NLP) - Branch of CS and AI that helps computers interpret human language.
-Sentiment Analysis - computational analysis of text to determine the writter's attitude 
-Tokenization - divides text into individual words 
-Bag of Words (BOW) - method of extracting features from text
-API - Application Programming Interface 
-'''
