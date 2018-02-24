@@ -1,4 +1,6 @@
-# Follow along with [Sirah Raval's video](https://www.youtube.com/watch?v=o_OZdbCzHUA&index=2&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
+# Python For Data Science 2
+
+Follow along with [Sirah Raval's video](https://www.youtube.com/watch?v=o_OZdbCzHUA&index=2&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
 
 Helpful Definitions:
 - Natural Language Processing (NLP) - Branch of CS and AI that helps computers interpret human language.
