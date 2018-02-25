@@ -31,7 +31,7 @@ Siraj studied Computer Science at Columbia University.
 
 ###### [Python For Data Science 4](https://www.youtube.com/watch?v=SSu00IRRraY&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU&index=4)
 * Topic: Forecasting
-* Packages: Tensorflow, sklearn, matplotlib
+* Packages: tensorflow, sklearn, matplotlib
 
 ###### [Python For Data Science 5](https://www.youtube.com/watch?v=MrBzgvUNr4w&index=5&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
 * Topic: Image Generation in Tensorflow
